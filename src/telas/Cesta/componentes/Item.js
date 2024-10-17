@@ -1,4 +1,3 @@
-import React from 'react';
 import { View, Image, StyleSheet, FlatList } from 'react-native';
 
 import Texto from '../../../componentes/Texto';
@@ -12,7 +11,7 @@ export default function Item({ item: { nome, imagem } }) {
 
 const estilos = StyleSheet.create({
   item: {
-    flexDirection: "row",
+    flexDirection: "row", //Define o layout dos itens um ao lado do outro.
     borderBottomWidth: 1,
     borderBottomColor: "#ECECEC",
     paddingVertical: 16,
